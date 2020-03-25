@@ -26,14 +26,19 @@ h2 {
 /* SEÇÃO SOBRE */
 .secao-sobre {
     background-color: white;
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
     width: 100%;
+<<<<<<< HEAD
     max-width: 120px;
+=======
+    max-width: 230px;
+>>>>>>> upstream/master
 }  
     
 .sobre-conteudo {
@@ -53,6 +58,7 @@ h2 {
     margin-left: 40px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 320px) {
     .secao-sobre {
         background-color: red;
@@ -62,5 +68,20 @@ h2 {
     
 
 
+=======
+/* Media Query */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+>>>>>>> upstream/master
 
-
+/* Media Query - Breakpoints
+    350px
+    420px
+    768px
+    1024px
+    1200px
+    1920px
+*/
